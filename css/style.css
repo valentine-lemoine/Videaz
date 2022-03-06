@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/btn.css");
+
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+body {
+	font-family: 'Noticia Text', serif;
+	font-size: 16px;
+	margin: 0px;
+	background-color: #FDF6F0;
+	color: #B67162;
+}
+
+@media(max-width:  500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+@media(max-width:  760px) {
+	.container{
+		width: 600px;
+	}
+
